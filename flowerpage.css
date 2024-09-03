@@ -425,8 +425,6 @@ p, h1 {
         /* Code for PC */
  @media (min-width: 500px) {
 
-    body {
-        display: none;
-    }
+    
 
  }
