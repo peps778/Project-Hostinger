@@ -30,3 +30,7 @@ stack.addEventListener("click", function (e) {
     }, 1200);
   }
 });
+
+function goToHeartPage() {
+  window.location.href = 'last.html';
+}
