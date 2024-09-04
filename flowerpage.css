@@ -31,7 +31,8 @@
 p, h1 {
     color: white; 
     text-align: justify;
-    margin: 0 0 20px 0; /* No need for left-right margins since they are inside the card */
+    margin: 0 20px; 
+    font-size: 1.5em;
 }
 
 
