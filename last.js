@@ -76,3 +76,24 @@ prevBtn.addEventListener("click", prevSong);
 window.onload = () => {
   loadSong(currentSongIndex);
 };
+
+function generateRandomString(length) {
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let result = '';
+    const charactersLength = characters.length;
+    for (let i = 0; i < length; i++) {
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+}
+
+function scrambleUrl(originalUrl) {
+    const url = new URL(originalUrl);
+    const randomString = generateRandomString(16); // Adjust length as needed
+    url.pathname = `/${randomString}`;
+    return url.toString();
+}
+
+const originalUrl = "https://for-you.icu/last.html";
+const scrambledUrl = scrambleUrl(originalUrl);
+console.log("Scrambled URL:", scrambledUrl);

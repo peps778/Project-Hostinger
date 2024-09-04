@@ -1,7 +1,0 @@
-RewriteEngine On
-
-# Rewrite rules to map scrambled URLs to actual pages
-RewriteRule ^scrambled1$ /index.html [L]
-RewriteRule ^scrambled2$ /flowerpage.html [L]
-RewriteRule ^scrambled3$ /images.html [L]
-RewriteRule ^scrambled4$ /last.html [L]
