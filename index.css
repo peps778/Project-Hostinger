@@ -5,9 +5,22 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background-color: #080710;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Ensure the main content area stretches to fill available space */
+.main-content {
+    flex: 1;
 }
 
 /* Background and shapes */
@@ -142,7 +155,7 @@ button {
     transform: translate(-50%, -50%); /* Adjust for centering */
     width: 90%;              /* Adjust width if needed */
     height: auto;           /* Maintain aspect ratio */
-    padding-bottom: 60px;
+    padding-top: auto;
 }
 
 /* Ensure video aspect ratio is preserved */
@@ -158,16 +171,15 @@ button {
     padding-bottom: 10px;
 }
 
+/* Footer styling */
 .footer {
     background-color: #F09819;
     width: 100%;
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
-    position: fixed; /* Fix the footer at the bottom of the viewport */
-    bottom: 1%;      /* 1% from the bottom of the viewport */
-    left: 0;
-    z-index: 1000;   /* Ensure the footer is above other content */
+    position: relative; /* Position relative to its container */
+    margin-top: 180%;  /* Pushes the footer to the bottom of the content */
 }
 
 
