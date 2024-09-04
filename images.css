@@ -47,6 +47,10 @@ main {
   padding-right: 100px;
 }
 
+.btn-container {
+  margin: 30px auto;
+}
+
 .btn {
   background-color: #007BFF;
   font-size: clamp(0.8rem, 8vw, 0.9rem);
@@ -58,7 +62,7 @@ main {
   border-radius: 6px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
-  margin-top: 26px;
+  margin: 20px;
   text-align: center;
   transform: scale(1);
   transition: all 0.2s ease-in;

@@ -7,9 +7,16 @@ body {
     flex-direction: column;
 }
 
-p {
+#ty-message {
     color: #ffff;
     margin: 5px 0;
+    text-align: center;
+}
+ 
+#header {
+    color: #ffff;
+    margin: 5px 0;
+    text-align: center;
 }
 
 #all_rights_ {
@@ -57,5 +64,5 @@ p {
 
 
 .iframe-container { 
-    margin: 0 auto;
+    margin: 15px auto;
   }
