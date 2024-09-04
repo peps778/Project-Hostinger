@@ -13,14 +13,6 @@ html, body {
 body {
     background-color: #080710;
     overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
-
-/* Ensure the main content area stretches to fill available space */
-.main-content {
-    flex: 1;
 }
 
 /* Background and shapes */
@@ -167,6 +159,13 @@ button {
     object-fit: cover;
 }
 
+.content {
+    min-height: calc(100vh - 60px); /* Adjust for footer height */
+    padding-bottom: 60px; /* Space for footer */
+}
+
+
+
 #all_rights_ {
     padding-bottom: 10px;
 }
@@ -178,12 +177,11 @@ button {
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
-    position: relative; /* Position relative to its container */
-    margin-top: 180%;  /* Pushes the footer to the bottom of the content */
+    position: fixed; /* Fix the footer at the bottom of the viewport */
+    bottom: 0;      /* At the very bottom of the viewport */
+    left: 0;   /* Ensure the footer is above other content */
 }
 
-
-/* Social container styling */
 .social-container {
     display: flex;
     justify-content: center;
@@ -192,13 +190,12 @@ button {
     margin-bottom: 10px;
 }
 
-/* Social item styling */
 .social-item {
     display: flex;
     align-items: center;
 }
 
-/* Specific icon styling */
+
 #instagram {
     width: 23px;
     height: auto;
