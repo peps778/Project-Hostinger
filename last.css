@@ -9,14 +9,18 @@ body {
 
 #ty-message {
     color: #ffff;
-    margin: 5px 0;
+    margin: 20px 30px 30px 30px;
     text-align: center;
+    font-size: 1.2em;
+    text-align: justify;
 }
  
 #header {
     color: #ffff;
-    margin: 5px 0;
+    margin: 5px 20px;
     text-align: center;
+    font-size: 2em;
+    
 }
 
 #all_rights_ {
@@ -25,7 +29,6 @@ body {
 
 .footer {
     background-color: #F09819;
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;

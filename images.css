@@ -45,6 +45,7 @@ main {
   font-size: clamp(0.9rem, 4vw, 1.2rem);
   line-height: 1.6;
   padding-right: 100px;
+  text-align: justify;
 }
 
 .btn-container {
