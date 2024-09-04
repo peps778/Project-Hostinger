@@ -6,7 +6,7 @@
 }
 
 html, body {
-    height: 100%;
+    height: auto; 
     margin: 0;
 }
 
@@ -147,7 +147,8 @@ button {
     transform: translate(-50%, -50%); /* Adjust for centering */
     width: 90%;              /* Adjust width if needed */
     height: auto;           /* Maintain aspect ratio */
-    padding-top: auto;
+    margin-top: 3em;
+    margin-bottom: 2em;
 }
 
 /* Ensure video aspect ratio is preserved */
@@ -177,9 +178,8 @@ button {
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
-    position: fixed; /* Fix the footer at the bottom of the viewport */
-    bottom: 0;      /* At the very bottom of the viewport */
-    left: 0;   /* Ensure the footer is above other content */
+    position: relative; 
+    margin-top: 60%;
 }
 
 .social-container {
