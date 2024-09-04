@@ -33,6 +33,7 @@ h1 {
     text-align: justify;
     margin: 0 20px; 
     font-size: 2em;
+    text-align: center;
 }
 
 p {
@@ -42,10 +43,10 @@ p {
     font-size: 1.1em;
 }
 
-.btn-container {
+/* .btn-container {
     margin: 30px auto;
     display: flex;
-}
+} */
 
 
         *,
@@ -69,6 +70,7 @@ p {
             justify-content: center;
             align-items: flex-end;
             overflow: hidden;
+            padding-bottom: 30px;
         }
 
         .flower {
@@ -431,6 +433,8 @@ p {
             outline: none; /
             /* box-shadow: 0 0 0 2px #0056b3;  */
         }        
+
+        
 
 
         /* Code for PC */
