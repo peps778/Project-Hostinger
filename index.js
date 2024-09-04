@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 timer: 1500,
                 showConfirmButton: false
             }).then(() => {
-                window.location.href = "https://for-you.icu/?page=a1b2c3d4"; // Corrected URL
+                window.location.href = "flowerpage.html"; // Corrected URL
             });
         } else {
             Swal.fire({
