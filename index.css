@@ -58,6 +58,11 @@ form {
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
     padding: 50px 35px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;            
+    text-align: center;      
+    flex-direction: column; 
 }
 
 /* Form elements */
@@ -216,4 +221,9 @@ button {
 #all_rights_ {
     color: #ffff;
     margin: 0;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
 }
