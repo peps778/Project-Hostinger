@@ -9,7 +9,7 @@
     z-index: 1;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);  
-    backdrop-filter: blur(3px);  
+    backdrop-filter: blur(5px);  
     border: 1px solid rgba(255, 255, 255, 0.2);  
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     margin: 0 auto;
@@ -27,7 +27,7 @@
     width: auto; 
     padding: 10px 20px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-    margin-top: 10px; /* Top margin from the content above */
+    margin-top: 15px; /* Top margin from the content above */
     margin-bottom: 10px; /* Additional margin if needed */
     z-index: 1;
 }
