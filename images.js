@@ -31,6 +31,3 @@ stack.addEventListener("click", function (e) {
   }
 });
 
-function gotoLastPage() {
-  window.location.href = 'last.html'; 
-}
