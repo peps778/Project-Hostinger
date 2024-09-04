@@ -28,11 +28,18 @@
     scrollbar-width: none;     /* Firefox */
 }
 
-p, h1 {
+h1 {
     color: white; 
     text-align: justify;
     margin: 0 20px; 
-    font-size: 1.5em;
+    font-size: 2em;
+}
+
+p {
+    color: white; 
+    text-align: justify;
+    margin: 0 20px; 
+    font-size: 1.1em;
 }
 
 .btn-container {
