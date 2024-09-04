@@ -26,3 +26,37 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         });
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const loginForm = document.getElementById('loginForm');
+    
+    loginForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+        
+        // Add your login logic here. This is a simple example:
+        if (username && password) {
+            // Simulate a successful login
+            localStorage.setItem('loggedIn', 'true');
+            
+            // Use SweetAlert2 for feedback
+            Swal.fire({
+                title: 'Success!',
+                text: 'You are now logged in.',
+                icon: 'success',
+                confirmButtonText: 'Continue'
+            }).then(() => {
+                window.location.href = 'flowerpage.html'; // Redirect after login
+            });
+        } else {
+            Swal.fire({
+                title: 'Error!',
+                text: 'Please enter both username and password.',
+                icon: 'error',
+                confirmButtonText: 'Try Again'
+            });
+        }
+    });
+});

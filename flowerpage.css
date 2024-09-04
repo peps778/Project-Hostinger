@@ -1,7 +1,7 @@
 .top-card {
     background-color: burlywood;
     width: 95%;
-    height: 88vh; /* Ensure it takes up most of the viewport height */
+    height: 90vh; /* Ensure it takes up most of the viewport height */
     position: absolute; 
     top: 0; 
     left: 50%; 
@@ -14,23 +14,11 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     margin: 0 auto;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     overflow: auto; /* Enables scrolling */
     padding-bottom: 20px; /* Adds padding inside the card */
 }
 
-.btn-container {
-    position: absolute;
-    bottom: 1px; /* Distance from the bottom of the viewport */
-    left: 50%;
-    transform: translateX(-50%);
-    width: auto; 
-    padding: 10px 20px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-    margin-top: 15px; /* Top margin from the content above */
-    margin-bottom: 10px; /* Additional margin if needed */
-    z-index: 1;
-}
 
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -77,7 +65,7 @@ p {
 
         body {
             background-image: var(--color-bg);
-            min-height: 110vh;
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: flex-end;
@@ -435,7 +423,7 @@ p {
             display: flex; 
             align-items: center;
             gap: 8px; 
-            margin: 0 auto;
+            margin: 20px auto 30px auto;
         }
         
         .next-page-btn:hover {
