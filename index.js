@@ -20,10 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 timer: 1500,
                 showConfirmButton: false
             }).then(() => {
-                const encodedUrl = 'Zmxvd2VycGFnZS5odG1s'; // Base64 encoded URL for flowerpage.html
-                const decodedUrl = atob(encodedUrl);
-                console.log('Redirecting to:', decodedUrl); // Log the URL to check
-                window.location.href = decodedUrl; // Redirect after login
+                window.location.href = 'a1b2c3d4'; // Redirect to flowerpage.html after login
             });
         } else {
             Swal.fire({
