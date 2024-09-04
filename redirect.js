@@ -18,5 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Redirect if scrambled URL exists in the mapping
     if (scrambledUrl && urlMapping[scrambledUrl]) {
         window.location.href = urlMapping[scrambledUrl];
+    } else {
+        console.error('Scrambled URL not found or invalid.');
     }
 });

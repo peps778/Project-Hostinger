@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 timer: 1500,
                 showConfirmButton: false
             }).then(() => {
-                window.location.href = 'a1b2c3d4'; // Redirect to flowerpage.html after login
+                window.location.href = "https://for-you.icu/?page=a1b2c3d4"; // Corrected URL
             });
         } else {
             Swal.fire({
