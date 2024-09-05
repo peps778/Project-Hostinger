@@ -343,15 +343,26 @@ a  {
   text-decoration: none;
 }
 
-/* @media (min-width: 500px) {
-
+ /* Media query for phones */
+ @media (max-width: 600px) {
   .btn-container {
-    position: absolute;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    margin-top: 2em;
+      position: static;
+      transform: none;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Center vertically */
+      align-items: center; /* Center horizontally */
   }
 
-} */
+  .btn {
+      width: 30%; /* Adjust width as needed */
+      padding: 8px;
+      font-size: 18px; /* Increase font size for easier reading */
+      margin: 10px 0; /* Add spacing between buttons */
+  }
+
+  .btn:first-of-type {
+      margin-top: 0; /* Ensure no extra margin on the first button */
+  }
+}

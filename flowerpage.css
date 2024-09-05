@@ -35,16 +35,18 @@
 h1 {
     color: white; 
     text-align: justify;
-    margin: 0 20px; 
-    font-size: 2em;
+    margin: .5em 20px; 
+    font-size: 3em;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 
 p {
     color: white; 
     text-align: justify;
     margin: 20px 20px; 
-    font-size: 1.1em;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
 }
 
 
@@ -424,6 +426,7 @@ p {
             align-items: center;
             gap: 8px; 
             margin: 20px auto 30px auto;
+        
         }
         
         .next-page-btn:hover {
@@ -444,5 +447,3 @@ p {
     
 
  }
-
- 

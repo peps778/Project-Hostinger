@@ -73,12 +73,12 @@ main {
     width: 90%; /* Adjust width as needed */
     background-color: rgba(255, 255, 255, 0.07);
     position: relative; /* Ensures the card scrolls with the content */
-    margin: 30px auto; /* Center horizontally and add vertical space */
+    margin: 50px auto 0px auto; /* Center horizontally and add vertical space */
     border-radius: 10px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
-    padding: 50px 35px;
+    padding: 50px 35px 0px 35px;
     display: flex;
     justify-content: center; 
     align-items: center;            
@@ -156,6 +156,8 @@ main * {
     box-sizing: border-box;
     margin-top: 30px; 
     bottom: 0;
+    font-family: "Quicksand", sans-serif;
+    
 }
 
 .social-container {
@@ -164,6 +166,7 @@ main * {
     align-items: center;
     gap: 20px;
     margin-bottom: 10px;
+    
 }
 
 .social-item {
@@ -186,11 +189,13 @@ main * {
 .ftext {
     color: #ffff;
     margin: 5px 0;
+    
 }
 
 #all_rights_ {
     color: #ffff;
     margin: 0;
+    text-align: center;
 }
 
 .links {
@@ -234,4 +239,5 @@ main * {
     h1 {
         color: white;
         font-size: 2em;
+        font-family: 'Dancing Script', cursive;
     }
