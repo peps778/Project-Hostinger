@@ -73,7 +73,28 @@ body {
     margin: 0;
 }
 
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+
 
 .iframe-container { 
     margin: 15px auto;
+  }
+
+
+  @media (min-width: 500px) { 
+
+    .footer {
+        background-color: #F09819;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
   }
