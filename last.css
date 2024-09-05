@@ -85,7 +85,7 @@ a {
   }
 
 
-  @media (min-width: 600px) { 
+  @media (min-width: 900px) { 
 
     html, body {
         height: 100%;
@@ -94,14 +94,15 @@ a {
 
 
     .footer {
-        background-color: #F09819;
+        /* background-color: #F09819;
         bottom: 0;
         left: 0;
         width: 100%;
         text-align: center;
         padding: 10px;
         box-sizing: border-box;
-        position: fixed;
+        position: fixed; */
+        display: none;
     }
 
   }
