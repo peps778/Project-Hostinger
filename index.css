@@ -13,6 +13,7 @@ html, body {
 body {
     background-color: #080710;
     overflow-y: auto;
+    
 }
 
 /* Background and shapes */
@@ -152,13 +153,13 @@ button {
     justify-content: center; /* Center horizontally */
     align-items: center;     /* Center vertically */
     position: absolute;
-    top: 70%;                /* Adjust vertical position here */
+    top: 55%;                /* Adjust vertical position here */
     left: 50%;               /* Center horizontally */
     transform: translate(-50%, -50%); /* Adjust for centering */
     width: 90%;              /* Adjust width if needed */
     height: auto;           /* Maintain aspect ratio */
-    margin-top: 3em;
-    margin-bottom: 2em;
+    margin-top: 25%;
+    margin-bottom: 1em;
 }
 
 /* Ensure video aspect ratio is preserved */
@@ -168,11 +169,13 @@ button {
     max-width: 360px;
     aspect-ratio: 9 / 16;
     object-fit: cover;
+    margin: 0 auto;
 }
 
 .content {
     min-height: calc(100vh - 60px); /* Adjust for footer height */
     padding-bottom: 60px; /* Space for footer */
+    
 }
 
 
@@ -189,7 +192,7 @@ button {
     padding: 10px;
     box-sizing: border-box;
     position: relative; 
-    margin-top: 60%;
+    margin-top: 50%;
 }
 
 .social-container {
