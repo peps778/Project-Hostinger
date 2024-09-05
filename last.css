@@ -91,7 +91,7 @@ a {
         height: 100%;
         margin: 0;
     }
-    
+
 
     .footer {
         background-color: #F09819;
@@ -101,6 +101,7 @@ a {
         text-align: center;
         padding: 10px;
         box-sizing: border-box;
+        position: fixed;
     }
 
   }
