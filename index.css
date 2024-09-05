@@ -13,6 +13,7 @@ html, body {
 body {
     background-color: #080710;
     overflow-y: auto;
+    overflow-x: hidden;
     
 }
 
@@ -112,7 +113,7 @@ input {
     color: #e5e5e5;
 }
 
-button {
+.btn {
     margin-top: 50px;
     width: 100%;
     background-color: #ffffff;
@@ -149,6 +150,7 @@ button {
 
 /* Video container */
 .video-container {
+    position: relative;
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center;     /* Center vertically */
@@ -192,7 +194,7 @@ button {
     padding: 10px;
     box-sizing: border-box;
     position: relative; 
-    margin-top: 50%;
+    /* margin-top: 50%; */
 }
 
 .social-container {
@@ -234,4 +236,31 @@ button {
 .links {
     color: white;
     text-decoration: none;
+}
+
+
+
+.btn-container {
+    text-align: center;
+    margin: 7em;
+    bottom: 0;
+}
+
+
+.next-btn {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.next-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slight lift and scaling effect on hover */
 }
