@@ -293,6 +293,7 @@ main {
   text-align: center;
   padding: 10px;
   box-sizing: border-box;
+  margin-top: 40px;
 }
 
 .social-container {
@@ -329,4 +330,9 @@ main {
 #all_rights_ {
   color: #ffff;
   margin: 0;
+}
+
+a  {
+  color: #ffff;
+  text-decoration: none;
 }
