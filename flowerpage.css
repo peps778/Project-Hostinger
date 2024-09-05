@@ -424,8 +424,8 @@ p {
             cursor: pointer; 
             display: flex; 
             align-items: center;
-            gap: 8px; 
-            margin: 20px auto 30px auto;
+            gap: 2px; 
+            margin: 10px auto 10px auto;
         
         }
         
@@ -444,6 +444,8 @@ p {
         /* Code for PC */
  @media (min-width: 500px) {
 
-    
+    .btn-container {
+        display: flex;
+    }
 
  }
