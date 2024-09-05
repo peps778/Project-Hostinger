@@ -56,8 +56,14 @@ main {
 
 .btn-container {
   position: absolute;
-  margin-top: 10px; 
+  width: auto;
+  height: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 2em;
 }
+
 
 .btn {
   background-color: #007BFF;
@@ -293,7 +299,7 @@ main {
   text-align: center;
   padding: 10px;
   box-sizing: border-box;
-  margin-top: 40px;
+  margin-top: 3em;
 }
 
 .social-container {
