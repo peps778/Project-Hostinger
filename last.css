@@ -85,6 +85,13 @@ a {
   }
 
 
+  @media (min-width: 600px) { 
+
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    
 
     .footer {
         background-color: #F09819;
@@ -96,4 +103,4 @@ a {
         box-sizing: border-box;
     }
 
-  
+  }
