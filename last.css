@@ -86,7 +86,7 @@ a {
   }
 
 
-  @media (min-width: 300px) { 
+  @media (min-width: 900px) { 
 
     html, body {
         height: 100%;
@@ -111,14 +111,13 @@ a {
 
 
 
-  @media (max-width: 900px) { 
+  @media (max-width: 400px) { 
   
     #ty-message {
         color: #ffff;
         margin: 20px 30px 30px 30px;
         text-align: center;
         font-size: 1.2em;
-
     }
 
 }
