@@ -71,7 +71,7 @@ p {
             display: flex;
             justify-content: center;
             align-items: flex-end;
-            overflow: hidden;
+            overflow-x: hidden;
             padding-bottom: 30px;
             position: relative;
         }
