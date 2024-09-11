@@ -549,13 +549,15 @@ a {
     .top-card{
      width:597px;
      height:558px;
-     left:785px;
+     left:467px;
+     bottom:0px;
+     transform:translatex(0px) translatey(0px);
     }
     
     /* Flower box */
     .flower-box{
      position:relative;
-     top:-133px;
+     top:-145px;
      left:237px;
     }
     
