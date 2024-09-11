@@ -449,3 +449,59 @@ p {
     }
 
  }
+
+ /* footer css */
+ #all_rights_ {
+    padding-bottom: 10px;
+}
+
+.footer {
+    background-color: #F09819;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+}
+
+
+#instagram {
+    width: 23px;
+    height: auto;
+    margin: 3px;
+}
+
+#facebook {
+    width: 20px;
+    height: auto;
+    margin: 3px;
+}
+
+.ftext {
+    color: #ffff;
+    margin: 5px 0;
+}
+
+#all_rights_ {
+    color: #ffff;
+    margin: 0;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
