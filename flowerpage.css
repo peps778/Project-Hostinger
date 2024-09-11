@@ -38,7 +38,7 @@ h1 {
     margin: .5em 20px; 
     font-size: 3em;
     text-align: center;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Quicksand", sans-serif;
 }
 
 p {
@@ -46,7 +46,7 @@ p {
     text-align: justify;
     margin: 20px 20px; 
     font-size: 1.3em;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Quicksand", sans-serif;
 }
 
 
@@ -453,6 +453,7 @@ p {
  /* footer css */
  #all_rights_ {
     padding-bottom: 10px;
+    font-family: "Quicksand", sans-serif;
 }
 
 .footer {
@@ -463,6 +464,7 @@ p {
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
 }
 
 .social-container {
@@ -526,6 +528,7 @@ a {
      top:45px;
      border-top-left-radius:16px;
      border-top-right-radius:16px;
+     font-family: "Quicksand", sans-serif;
     }
     
     /* Flower box */
@@ -598,6 +601,7 @@ a {
     /* All rights */
     #all_rights_{
      font-size:1em;
+     font-family: "Quicksand", sans-serif;
     }
     
    }
@@ -616,6 +620,7 @@ a {
      transform:translatex(0px) translatey(0px);
      display:inline-block;
      left:-50px !important;
+     font-family: "Quicksand", sans-serif;
     }
     
     /* Top card */
@@ -647,11 +652,13 @@ a {
     /* Paragraph */
     .footer .social-item p{
      font-size:1em;
+     font-family: "Quicksand", sans-serif;
     }
     
     /* All rights */
     #all_rights_{
      font-size:1em;
+     font-family: "Quicksand", sans-serif;
     }
     
    }

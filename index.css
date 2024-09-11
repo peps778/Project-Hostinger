@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Quicksand", sans-serif;
 
 }
 
@@ -90,7 +90,7 @@ main {
 
 /* Form elements */
 main * {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Quicksand", sans-serif;
     color: #ffffff;
     letter-spacing: 0.5px;
     outline: none;
@@ -152,7 +152,7 @@ main * {
     background-color: #F09819;
     width: 100%;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     box-sizing: border-box;
     margin-top: 30px; 
     bottom: 0;
@@ -189,7 +189,7 @@ main * {
 .ftext {
     color: #ffff;
     margin: 5px 0;
-    font-size: .7em;
+    font-size: 1em;
     
 }
 
@@ -197,7 +197,7 @@ main * {
     color: #ffff;
     margin: 0;
     text-align: center;
-    font-size: .7em;
+    font-size: 1em;
 }
 
 .links {
@@ -241,5 +241,5 @@ main * {
     h1 {
         color: white;
         font-size: 2em;
-        font-family: 'Dancing Script', cursive;
+        font-family: "Quicksand", sans-serif;
     }
