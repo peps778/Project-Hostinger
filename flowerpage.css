@@ -690,3 +690,39 @@ a {
     }
     
    }
+
+   /* UPDATE NUMBER #4 */
+
+   @media (max-width:374px){
+
+    /* Footer */
+    footer{
+     display:inline-block;
+     transform:translatex(0px) translatey(0px) !important;
+     padding-bottom:20px !important;
+     padding-top:25px !important;
+     padding-left:0px;
+     padding-right:0px;
+    }
+    
+    /* Heading */
+    .top-card h1{
+     font-size:2em;
+    }
+    
+    /* Paragraph */
+    .top-card p{
+     font-size:1em;
+    }
+    
+    /* Link */
+    .footer .ftext a{
+     font-size:12px;
+    }
+    
+    /* All rights */
+    #all_rights_{
+     font-size:12px;
+    }
+    
+   }
