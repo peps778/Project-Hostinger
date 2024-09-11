@@ -578,3 +578,26 @@ a {
     }
     
    }
+
+
+
+   /* VISUAL CSS PART 2  */
+
+   @media (max-width:374px){
+
+    /* Footer */
+    footer{
+     left:-36px !important;
+    }
+    
+    /* Paragraph */
+    .footer .social-item p{
+     font-size:1em;
+    }
+    
+    /* All rights */
+    #all_rights_{
+     font-size:1em;
+    }
+    
+   }
