@@ -662,3 +662,31 @@ a {
     }
     
    }
+
+
+   /* VISUAL CSS Update #3 */
+   @media (max-width:374px){
+
+    /* Link */
+    .footer .ftext a{
+     font-size:12px;
+     line-height:0px;
+     font-weight:400;
+    }
+    
+    /* All rights */
+    #all_rights_{
+     font-size:12px;
+    }
+    
+    /* Paragraph */
+    .top-card p{
+     font-size:1em;
+    }
+    
+    /* Heading */
+    .top-card h1{
+     font-size:2em;
+    }
+    
+   }
