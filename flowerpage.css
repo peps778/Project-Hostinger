@@ -505,3 +505,74 @@ a {
     color: #ffff;
     text-decoration: none;
 }
+
+/* visual css code */
+
+@media (max-width:500px){
+
+    /* Top card */
+    .top-card{
+     height:610px;
+    }
+    
+    /* Footer */
+    footer{
+     position:relative;
+     bottom:-41px !important;
+     left:-41px !important;
+     width:594px !important;
+     max-width:805px;
+     min-height:0px;
+     top:45px;
+     border-top-left-radius:16px;
+     border-top-right-radius:16px;
+    }
+    
+    /* Flower box */
+    .flower-box{
+     position:relative;
+     top:-250px;
+     left:185px;
+    }
+    
+    /* All rights */
+    #all_rights_{
+     position:relative;
+     left:72px;
+    }
+    
+   }
+   
+   @media (min-width:1220px){
+   
+    /* Top card */
+    .top-card{
+     width:597px;
+     height:558px;
+     left:800px;
+    }
+    
+    /* Flower box */
+    .flower-box{
+     position:relative;
+     top:-142px;
+     left:201px;
+    }
+    
+    /* Footer */
+    footer{
+     position:relative;
+     left:-68px !important;
+     bottom:-31px !important;
+     top:32px;
+     border-top-left-radius:16px;
+     border-top-right-radius:16px;
+    }
+    
+    /* All rights */
+    #all_rights_{
+     position:relative;
+     left:400px;
+    }
+    
+   }
