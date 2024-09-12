@@ -809,3 +809,38 @@ a {
     }
     
    }
+
+   /* /////////////////////////////////////// */
+
+
+   @media (max-width:600px){
+
+    /* Card */
+    main .stack .card{
+     margin-top:20px;
+     margin-bottom:0px;
+    }
+    
+    /* Content Division */
+    main .content{
+     margin-bottom:150px;
+    }
+    
+    /* Main */
+    main{
+     transform:translatex(0px) translatey(0px);
+     padding-bottom:0px;
+     margin-bottom:-122px;
+    }
+    
+    /* Paragraph */
+    main p{
+     transform:translatex(0px) translatey(0px);
+    }
+    
+    /* Heading */
+    main h1{
+     margin-top:-130px;
+    }
+    
+   }
