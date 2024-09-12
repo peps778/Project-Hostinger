@@ -122,3 +122,47 @@ a {
 
 }
  
+
+
+/* VISUAL CSS */
+
+@media (min-width:894px){
+
+    /* Iframe */
+    .iframe-container iframe{
+     position:relative;
+     left:226px;
+     top:74px;
+    }
+    
+    /* Text container */
+    .text-container{
+     width:50%;
+     position:relative;
+     top:-301px;
+     bottom:-200px;
+     left:38px;
+     margin-bottom:0px;
+     transform:translatex(0px) translatey(0px);
+    }
+    
+    /* Body */
+    body{
+     min-height:0px;
+     height:0px;
+     width:100%;
+     padding-bottom:-2000px;
+     margin-bottom:0px;
+    }
+    
+    /* Message */
+    #ty-message{
+     margin-bottom:-155px;
+    }
+    
+    /* Footer */
+    footer{
+     margin-top:79px;
+    }
+    
+   }
