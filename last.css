@@ -96,15 +96,15 @@ a {
 
 
     .footer {
-        /* background-color: #F09819;
+        background-color: #F09819;
         bottom: 0;
         left: 0;
         width: 100%;
         text-align: center;
         padding: 10px;
         box-sizing: border-box;
-        position: fixed; */
-        display: none;
+        position: fixed;
+     
     }
 
   }
@@ -115,7 +115,7 @@ a {
   
     #ty-message {
         color: #ffff;
-        margin: 20px 30px 30px 30px;
+        margin: 1em 30px 30px 30px;
         text-align: justify;
         font-size: 1.2em;
     }
