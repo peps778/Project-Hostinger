@@ -738,3 +738,27 @@ a {
     }
     
    }
+
+   /* mobile view VISUAL CSS UPDATE */
+
+   @media (max-width:600px){
+
+    /* Card */
+    main .stack .card{
+     margin-top:-121px;
+     margin-bottom:0px;
+    }
+    
+    /* Content Division */
+    main .content{
+     margin-bottom:150px;
+    }
+    
+    /* Main */
+    main{
+     transform:translatex(0px) translatey(0px);
+     padding-bottom:0px;
+     margin-bottom:-122px;
+    }
+    
+   }
