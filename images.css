@@ -407,3 +407,20 @@ a  {
   }
   
  }
+
+ /* ///Visual CSS 09/14/24// */
+
+
+ @media (max-width:600px){
+
+  /* Card */
+  main .stack .card{
+   margin-top:0px;
+  }
+  
+  /* Heading */
+  main h1{
+   margin-top:0px;
+  }
+  
+ }
