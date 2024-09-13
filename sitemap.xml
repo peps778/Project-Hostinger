@@ -3,7 +3,8 @@
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
 <url>
   <loc>https://ilvbuding.blog/index.html</loc>
@@ -24,6 +25,23 @@
   <loc>https://ilvbuding.blog/D1nomYCoXs5cvY4wFN7T.html</loc>
   <lastmod>2024-09-13T15:12:54+00:00</lastmod>
   <priority>0.40</priority>
+</url>
+
+<url>
+  <loc>https://ilvbuding.blog/your-video-page.html</loc>
+  <lastmod>2024-09-13T15:20:00+00:00</lastmod>
+  <priority>0.70</priority>
+  <video:video>
+    <video:thumbnail_loc>https://ilvbuding.blog/images/video-thumbnail.jpg</video:thumbnail_loc>
+    <video:title>Short Monthsary Edit</video:title>
+    <video:description>Princess Amar Blase and Paul Jhon Magbanua.</video:description>
+    <video:content_loc>https://ilvbuding.blog/images/video-content.mp4</video:content_loc>
+    <video:player_loc>https://ilvbuding.blog/your-video-page.html</video:player_loc>
+    <video:duration>19</video:duration> <!-- Duration in seconds -->
+    <video:publication_date>2024-09-13T12:00:00Z</video:publication_date>
+    <video:tag>Princess Amar Blase</video:tag>
+    <video:tag>Paul Jhon Magbanua</video:tag>
+  </video:video>
 </url>
 
 </urlset>
