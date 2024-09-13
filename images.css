@@ -415,12 +415,12 @@ a  {
 
   /* Card */
   main .stack .card{
-   margin-top:0px;
+   margin-top:-25px;
   }
   
   /* Heading */
   main h1{
-   margin-top:0px;
+   margin-top:-25px;
   }
   
  }
